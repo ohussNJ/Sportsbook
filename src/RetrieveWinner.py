@@ -11,6 +11,4 @@ seperate = fight_results.text.split(' ')
 fight_winner = ' '.join(seperate[0:2])
 fight_loser = ' '.join(seperate[3:5])
 method = ' '.join(seperate[5:])
-# fight_winner = 'Ciryl Gane'
-# fight_loser = 'Alexander Volkov'
-# method = "via TKO in round 1 (3:48)"
+
