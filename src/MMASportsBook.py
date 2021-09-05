@@ -183,7 +183,7 @@ class SportsBook():
         return ([p1_email, p2_email])
 
 
-name1 = input("Enter Player One Name: ")
-name2 = input("Enter Player Two Name: ")
+name1 = input("Enter Player One First Name: ")
+name2 = input("Enter Player Two First Name: ")
 game = SportsBook(name1, name2)
 SportsBook.pull_event()
